@@ -2,7 +2,7 @@
 
 ## Get Physical Memory in Windows
 
-> What is you wanted to upgrade your memory but didn't want to take your computer apart to find out what kind of memory you have?
+> What if you wanted to upgrade your memory but didn't want to take your computer apart to find out what kind of memory you have?
 
 `Get-CimInstance Win32_PhysicalMemory | Select-Object BankLabel, Capacity, DeviceLocator, Manufacturer, PartNumber, Speed1`
 
